@@ -9,7 +9,7 @@ const { default: mongoose } = require('mongoose');
 const app = express();
 
 // CONNECT DB
-mongoose.connect('mongodb://localhost/pcat-db',{
+mongoose.connect('YOUR MONGODB CONNECTION',{
   useNewUrlParser:true,
   useUnifiedTopology:true,
   
